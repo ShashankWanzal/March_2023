@@ -1,0 +1,50 @@
+package array;
+
+import java.util.Arrays;
+
+public class Demo5 
+{
+
+	
+	
+	public static void main(String[] args) 
+	{
+	
+		
+		int ar[]= {11,23,445,55,66,77,88,99};
+		//         0   1  2  3   4  5  6  7
+		
+		System.out.println(ar.length);
+		
+		
+		for(int i=0; i<=ar.length-1;i++)
+		{
+			System.out.println(ar[i]);
+		}
+		
+		//  0---large   11, 23 55 66 77 88 99 445
+		System.out.println("------------------------------------");
+		
+		Arrays.sort(ar);
+		
+		
+		for(int i=0; i<=ar.length-1;i++)
+		{
+			System.out.println(ar[i]);
+		}
+		
+		
+		
+		System.out.println("==============================");
+		
+		for(int i=ar.length-1; i>=0;i--)
+		{
+			System.out.println(ar[i]);
+		}
+		
+	
+		
+		
+	}
+	
+}
